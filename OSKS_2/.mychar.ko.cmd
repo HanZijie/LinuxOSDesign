@@ -1,0 +1,1 @@
+cmd_/home/hanzijie/Desktop/OSKS_2/mychar.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/hanzijie/Desktop/OSKS_2/mychar.ko /home/hanzijie/Desktop/OSKS_2/mychar.o /home/hanzijie/Desktop/OSKS_2/mychar.mod.o ;  true

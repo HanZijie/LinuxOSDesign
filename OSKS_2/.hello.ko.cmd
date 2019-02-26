@@ -1,0 +1,1 @@
+cmd_/home/hanzijie/Desktop/OSKS_2/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/hanzijie/Desktop/OSKS_2/hello.ko /home/hanzijie/Desktop/OSKS_2/hello.o /home/hanzijie/Desktop/OSKS_2/hello.mod.o ;  true
